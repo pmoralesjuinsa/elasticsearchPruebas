@@ -1,0 +1,25 @@
+{
+    "name": "pedro/juinsa",
+    "authors": [
+        {
+            "name": "Pedro Morales",
+            "email": "pedromorales@grupojuinsa.es"
+        }
+    ],
+    "require": {
+        "elasticsearch/elasticsearch": "~7.0"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "elasticPruebas\\":"src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
